@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 0px;
+}
+#logo{
+   
+   display: flex;
+   /* color:whitesmoke; */
+   align-items: center;
+   margin:0px;
+   font-size: 16px;
+   padding-right: 40px;
+   font-family: 'Bungee Spice', 'cursive';
+}
+#logo img{
+    height: 54px;
+    filter: invert(1);
+    
+}
+#navbar {
+    margin: 0px;
+    background-color: black;
+    padding: 4px 5px;
+    /* font-family: 'Bungee Spice', cursive; */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* justify-content: center; */
+    font-weight: bold;
+    align-items: center;
+}
+
+#navbar li {
+    font-size: 1.3rem;
+    list-style: none;
+    color: aqua;
+    padding: 10px 20px;
+}
+#navbar li:hover{
+    font-size:1.1rem;
+    
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: rgb(19, 190, 190) !important;
+
+}
+
+#introSection {
+    background: url('https://images.unsplash.com/photo-1483931430372-226f194be3a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFuY2UlMjBhY2FkZW15fGVufDB8fDB8fA%3D%3D&w=1000&q=80')no-repeat center/cover;
+    font-family: 'Roboto Mono', monospace;
+    font-size:35px;
+    color: white;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+#introSection div.small{
+    font-size: 24px;
+    padding:3px;
+}
+
+#sponsorSection {
+    height: 300px;
+    background-color:  rgba(195, 74, 74, 0.862);
+}
+#sponsorSection h1{
+    text-align: center;
+    padding-top:12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+#sponsors{
+   height:165px;
+   max-width:1176px;
+   margin:auto; 
+}
+.spimage{
+   height:80%;
+   margin:39px 77px; 
+   border-radius: 20px;
+    filter: invert(1);
+}
+#missionSection {
+    height: 333px;
+    /* background-color:  rgba(174, 202, 207, 0.984); */
+    width:70%;
+    display:block;
+    margin:auto;
+}
+#missionSection h1{
+    text-align: center;
+    padding-top:12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:30%;
+    margin:23px 22px;
+    height:209px;
+    display:inline-block;
+    background-color: aqua;
+}
+.card h3{
+    text-align: center;
+    margin:12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-content{
+padding:0 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+.card-box{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.card-img{
+height: 131px;
+padding:0 14px;
+margin:5px 9px;
+
+}
+.card-img img{
+    height:inherit;
+    border-radius: 42px;
+    filter: invert(1);
+}
+#footer {
+    background-color: rgb(195, 74, 74);
+    height: 60px;
+    display: flex;
+    background-color: black;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}

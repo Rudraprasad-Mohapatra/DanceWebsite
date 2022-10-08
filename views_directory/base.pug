@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    block scripts
+      script
+       include ../staticfolder/index.js
+    block style
+      style
+       include ../staticfolder/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+               img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdTqSZqK7JOMxDXjNEj7oKxzQpuZd446M-5Q&usqp=CAU", alt="LOGO")
+
+               | @NDA ACADEMY
+            li 
+                a(href='//google.com') Home 
+            li 
+                a(href='//google.com') About 
+            li 
+                a(href='//google.com') Services     
+            li 
+                a(href='//google.com') Class Info
+
+            li 
+                a(href='/contact') Contact Us
+    block content
+        
+    footer#footer 
+      | Copyright © 2022 buyNearby.com | All rights reserved.

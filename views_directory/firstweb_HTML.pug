@@ -1,0 +1,69 @@
+//- firstweb_HTML.pug
+doctype html
+html
+    head
+        title  This is Dance Website.
+
+style
+    include ../staticfolder/style.css
+body
+    nav#navbar
+        ul
+            div#logo
+               img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdTqSZqK7JOMxDXjNEj7oKxzQpuZd446M-5Q&usqp=CAU", alt="LOGO")
+
+               | @NDA ACADEMY
+            li 
+                a(href='//google.com') Home 
+            li 
+                a(href='//google.com') About 
+            li 
+                a(href='//google.com') Services     
+            li 
+                a(href='//google.com') Class Info
+
+            li 
+                a(href='/contact') Contact Us
+    section#introSection
+        div 
+            | Welcome to your Apna Dance Academy
+        div.small 
+            | Eat Sleep Dance Repeat
+    section#missionSection 
+        h1 Our Mission
+        div.card
+            h3 Dance Perfection.
+            div.card-box 
+               div.card-img 
+                 img(src="https://toppng.com/uploads/preview/roup-dancing-silhouette-png-picture-black-and-white-dance-team-clipart-115630729950ebir89asd.png", alt="img1") 
+               div.card-content  
+                    p This is the best dance academy.
+        div.card
+            h3 Dance the way you like. 
+            div.card-box 
+               div.card-img 
+                 img(src="https://png.pngtree.com/element_pic/16/06/03/005750658c5ce1d.jpg", alt="img2") 
+               div.card-content  
+                    p This is the best dance academy. 
+        div.card
+            h3 Expert teaching. 
+            div.card-box 
+               div.card-img 
+                 img(src="https://png.pngtree.com/png-clipart/20210528/ourmid/pngtree-ballet-dance-stand-stand-female-dancer-black-silhouette-png-image_3382925.jpg", alt="") 
+                 
+               div.card-content  
+                    p This is the best dance academy.         
+    section#sponsorSection 
+        h1 Our Sponsors
+          div#sponsors
+             img(src="https://e7.pngegg.com/pngimages/519/252/png-clipart-logo-brand-adidas-sponsor-shoe-brands-angle-text-thumbnail.png", alt="Sponsor-1",class="spimage") 
+             img(src="https://icon2.cleanpng.com/20180816/awj/kisspng-logo-pepsi-cola-portable-network-graphics-brand-pepsi-logo-png-free-png-images-toppng-5b7617b3080849.2375571715344659710329.jpg", alt="sponsor2",class="spimage")
+             img(src="https://w1.pngwing.com/pngs/489/654/png-transparent-coke-logo-cocacola-white-coke-sponsor-customer-text-black-and-white-calligraphy-thumbnail.png", alt="sponsor3",class="spimage")
+             img(src="https://e7.pngegg.com/pngimages/724/89/png-clipart-red-bull-grand-prix-of-the-americas-logo-marketing-sponsor-don-t-leave-company-text-thumbnail.png", alt="sponsor4",class="spimage")
+        
+    footer#footer 
+        | Copyright © 2022 buyNearby.com | All rights reserved.
+           
+
+script
+    include ../staticfolder/index.js
