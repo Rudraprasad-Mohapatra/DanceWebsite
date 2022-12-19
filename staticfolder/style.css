@@ -3,7 +3,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 1px;
+    margin: 0px;
     padding: 0px;
 }
 #logo{
@@ -111,7 +111,7 @@
     border: 2px solid black;
     border-radius: 10px;
     width:30%;
-    margin:23px 22px;
+    margin:20px 5px;
     height:209px;
     display:inline-block;
     background-color: aqua;
@@ -122,7 +122,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .card-content{
-padding:0 10px;
+padding:0 0px;
 }
 .card-content p{
     font-size: 19px;

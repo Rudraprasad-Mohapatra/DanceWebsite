@@ -41,10 +41,12 @@ app.get('/', (req, res)=>{
     res.status(200).render('firstweb_HTML.pug');
 })
 
+app.get('/home', (req, res)=>{
+    res.status(200).render('firstweb_HTML.pug');
+})
 app.get('/contact', (req, res)=>{
     res.status(200).render('contact.pug');
 })
-
 app.post('/contact', (req, res)=>{
     var myData=new Contact(req.body); 
     myData.save().then(()=>{
@@ -53,6 +55,13 @@ app.post('/contact', (req, res)=>{
      res.status(400).send("This item has not been Saved to database.")
     });
 })
+app.get('/home', (req, res)=>{
+    res.status(200).render('home.pug');
+})
+app.get('/about', (req, res)=>{
+    res.status(200).render('home.pug');
+})
+
 
 // START THE SERVER
 app.listen(port, ()=>{
